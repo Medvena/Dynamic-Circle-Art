@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Layout */
+#ui {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left panel */
+#controls {
+    width: 250px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-right: 2px solid #333;
+}
+
+#controls input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #ff4081;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* Center canvas */
+#canvasContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The art window */
+canvas {
+    background: black;
+    border: 2px solid #444;
+    border-radius: 10px;
+}
